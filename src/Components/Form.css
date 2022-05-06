@@ -1,0 +1,52 @@
+.form{
+    display: flex;
+    flex-direction: column;
+    background-color: aqua;
+    height: 300px;
+}
+h2{
+    align-items: center;
+    justify-content: center;
+}
+#comment_box{
+      width: 206px;
+    height: 53px;
+   padding:2%;
+   font-size:1.2em;
+   background-color:gold;
+}
+
+label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  text-align: right;
+  width: 400px;
+  line-height: 26px;
+  margin-bottom: 10px;
+}
+
+input {
+  margin-left: 10px;
+   box-sizing: border-box;
+  height: 10%;
+  width: 50%;
+}
+
+button{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin: 0px 148px;
+cursor: pointer;
+}
+button:hover{
+    background-color: rgb(215, 117, 24);
+    color: rgb(244, 248, 6);
+    transition-property: background-color;
+transition-duration: 0.5s;
+transition-timing-function: ease-in;
+transition-delay: 0.3s;
+transition: all 1s ease-in;
+}

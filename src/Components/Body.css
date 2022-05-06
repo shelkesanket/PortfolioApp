@@ -1,0 +1,17 @@
+.body{
+    background-color: yellow;
+    display: flex;
+    flex-direction: row; 
+      padding: 35px 9px;
+    margin: 10px 10px;
+    border: 10px solid red;
+}
+.body_main{
+      flex:0.75;
+      padding: 10px 10px;
+}
+
+.body_form{
+    flex:0.25;
+    padding-top:10px;
+}

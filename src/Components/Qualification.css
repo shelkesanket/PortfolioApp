@@ -1,0 +1,23 @@
+.qualification{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+justify-content: space-evenly;
+    padding: 35px 9px;
+    margin: 10px 10px;
+    border: 10px solid red;
+}
+.edu{
+display: flex;
+flex-direction: column;
+border: 10px solid rgb(174, 182, 23);
+padding: 35px 9px;
+    margin: 10px 10px;
+
+
+}
+h2{
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+}
